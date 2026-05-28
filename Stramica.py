@@ -1,15 +1,15 @@
 import streamlit as st
 st.markdown(
-  """
-  <style>
-  .stApp {
-  background-color: #FF6600;
-  }
-   h1, h2, p, div {
+"""
+<style>
+.stApp {
+background-color: #FF6600;
+}
+h1, h2, p, div {
     color:black !important;
-  }
-  </style>
-  """,
+}
+</style>
+""",
   unsafe_allow_html=True
 )
 
