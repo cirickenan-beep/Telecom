@@ -2,7 +2,7 @@ import streamlit as st
 st.markdown(
     """
     <style>
-    [data-testid="stAppViewContainer"]
+    [data-testid="stAppViewContainer"]{
         background-color: #FF6600;
     }
     h1, h2, p, div, span, label {
