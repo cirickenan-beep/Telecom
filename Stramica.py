@@ -5,7 +5,7 @@ if "kliknuto" not in st.session_state:
  st.session_state.kliknuto = False
 #2.
  if not st.session_state.kliknuto:
- Dalje = st.button ("Zroni u svijet optièkog inteneta")
+  Dalje = st.button ("Zaroni u svijet optièkog inteneta")
 st.session_state.kliknuto = True
 st.return()
 if session_state.kliknuto:
