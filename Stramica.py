@@ -1,6 +1,5 @@
 import streamlit as st
-
-st.title("Moj BH Telecom")
+""
 <style>
 .stApp {
   backgorund-color: #FF66000;
@@ -11,6 +10,9 @@ st.title("Moj BH Telecom")
 </style>
 "",
 unsafe_allow_html=True
+)
+
+st.title("Moj BH Telecom")
 
 # 1. Kreiramo stanje u memoriji ako već ne postoji
 if "kliknuto" not in st.session_state:
