@@ -3,9 +3,10 @@ import streamlit as st
 st.title("Moj BH Telecom")
 <style>
 .stApp {
-backgorund-color: #FF66000;
+  backgorund-color: #FF66000;
+}
  h1, h2, p, div{
-    color:black!imoprtant;
+    color:black!imoportant;
 }
 </style>
 "",
