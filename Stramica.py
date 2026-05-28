@@ -3,7 +3,7 @@ st.markdown(
     """
     <style>
     [data-testid="stAppViewContainer"]{
-        background-color: #FF6600;
+        background-color: #FF6600 !important;
     }
     h1, h2, p, div, span, label {
         color: black !important;
