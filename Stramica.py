@@ -1,18 +1,4 @@
 import streamlit as st
-st.markdown(
-    """
-    <style>
-    [data-testid="stAppViewContainer"]{
-        background-color: #FF6600 !important;
-    }
-    h1, h2, p, div, span, label {
-        color: black !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 st.title("Moj BH Telecom")
 
 # 1. Kreiramo stanje u memoriji ako već ne postoji
