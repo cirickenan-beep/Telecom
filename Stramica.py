@@ -1,7 +1,15 @@
 import streamlit as st
 
 st.title("Moj BH Telecom")
-st.markdown(:orange
+<style>
+.stApp {
+backgorund-color: #FF66000;
+ h1, h2, p, div{
+    color:black!imoprtant;
+}
+</style>
+"",
+unsafe_allow_html=True
 
 # 1. Kreiramo stanje u memoriji ako već ne postoji
 if "kliknuto" not in st.session_state:
