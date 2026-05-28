@@ -1,14 +1,14 @@
 import streamlit as st
-""
+"""
 <style>
 .stApp {
   backgorund-color: #FF66000;
 }
- h1, h2, p, div{
+ h1, h2, p, div {
     color:black!imoportant;
 }
 </style>
-"",
+""",
 unsafe_allow_html=True
 )
 
