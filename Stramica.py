@@ -6,8 +6,8 @@ if "kliknuto" not in st.session_state:
 #2.
  if not st.session_state.kliknuto:
   Dalje = st.button ("Zaroni u svijet optièkog inteneta")
-st.session_state.kliknuto = True
-st.rerun()
+  st.session_state.kliknuto = True
+  st.rerun()
 if session_state.kliknuto:
  if Dalje:
   st.title("Paketi")
