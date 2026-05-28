@@ -5,7 +5,7 @@ import streamlit as st
   background-color: #FF66000;
 }
  h1, h2, p, div {
-    color:black!imoportant;
+    color:black !imoportant;
 }
 </style>
 """,
