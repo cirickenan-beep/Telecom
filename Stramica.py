@@ -1,8 +1,5 @@
 mport streamlit as st
 
-# Sve je spakovano unutar zagrada i provjereno radi u IDLE-u
-st.markdown('<style>[data-testid="stAppViewContainer"] {background-color: #FF6600 !important;} h1, h2, p, div, span, label {color: black !important;}</style>', unsafe_allow_html=True)
-
 st.title("Moj BH Telecom")
 
 # 1. Kreiramo stanje u memoriji ako već ne postoji
