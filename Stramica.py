@@ -10,7 +10,7 @@ st.markdown(
     }
     </style>
     """,
-    unsafe_allow_html=True
+    unsafe_allow-html=True
 )
 
 st.title("Moj BH Telecom")
