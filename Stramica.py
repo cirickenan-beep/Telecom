@@ -1,16 +1,16 @@
 import streamlit as st
 st.markdown(
-"""
-<style>
-.stApp {
+  """
+  <style>
+  .stApp {
   background-color: #FF6600;
-}
- h1, h2, p, div {
+  }
+   h1, h2, p, div {
     color:black !important;
-}
-</style>
-""",
-unsafe_allow_html=True
+  }
+  </style>
+  """,
+  unsafe_allow_html=True
 )
 
 st.title("Moj BH Telecom")
