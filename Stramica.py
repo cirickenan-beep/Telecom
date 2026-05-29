@@ -1,7 +1,7 @@
 import streamlit as st
 
 Naslov = st.title("Moj BH Telecom")
-if "klinknuto" not in sr.session_state
+if "klinknuto" not in sr.session_state:
   st.session_state.kliknuto = False
 #
 if not st.session_state.kliknuto:
