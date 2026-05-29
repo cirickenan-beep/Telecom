@@ -1,6 +1,13 @@
 import streamlit as st
 
-st.title("Moj BH Telecom")
+Naslov = st.title("Moj BH Telecom")
+if "klinknuto" not in sr.session_state
+  st.session_state.kliknuto = False
+#
+if not st.session_state.kliknuto:
+    if Naslov:
+        st.session_state.kliknuto = True
+        st.rerun()
 
 # 1. Kreiramo stanje u memoriji ako već ne postoji
 if "kliknuto" not in st.session_state:
